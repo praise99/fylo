@@ -1,0 +1,204 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    .container {
+        width: 57%;
+    }
+    .img-logo {
+        margin: 20px;
+        width: 25%;
+    }
+    .navig {
+        float: right;
+        margin: -50px 0px 0px 0px;
+        font-size: 9px;
+    }
+    .links {
+        display: inline;
+        padding-right: 13px;
+    }
+    .sectB-imglogo {
+        width: 200%;
+        flex: 2;
+        margin-left: -100px;
+        flex-grow: 2;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    }
+    .sectB-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sectB-content {
+        width: 50%;
+        margin-top: 180px;
+        /* font-size: 7px; */
+    }
+    .sectB-title {
+        font-size: 16px;
+        width: 200px;
+        /* white-space: nowrap; */
+        text-align: center;
+    }
+    .sectB-desc {
+        font-size: 11px;
+        text-align: center;
+        width: 200px;
+    }
+    .sectB-input {
+        width: 190px;
+        padding: 6px;
+        margin-top: 9px;
+        margin-left: -1px;
+    }
+    .sectB-btn {
+        width: 210px;
+        padding: 6px;
+        margin-left: -3px;
+        color: white;
+        background-color: hsl(224, 93%, 58%);
+        border-radius: 4px;
+        border: 3px solid hsl(224, 93%, 58%);
+        margin-top: 7px;
+    }
+    .sectC-img {
+        width: 100%;
+        margin-top: -150px;
+        flex: 2;
+    }
+    .sectC-logo {
+        width: 220%;
+        margin-left: -110px;
+    }
+    .sectC-title {
+        font-size: 14px;
+        color: hsl(243, 87%, 12%);
+        width: 230px;
+        margin-top: 60px;
+        margin-left: -10px;
+    }
+    .sectC-desc {
+        color: hsl(238, 22%, 44%);
+        width: 230px;
+        font-size: 11px;
+        text-align: center;
+        margin-left: -14px;
+    }
+    .food {
+        width: 230px;
+        /* font-size: 11px; */
+    }
+    .fylo-works {
+        color: hsl(170, 45%, 43%);
+        font-size: 13px;
+        margin-left: 40px;
+    }
+    .card {
+        margin-left: -10px;
+        background: white;
+        width: 150px;
+        border-radius: 9px;
+        padding: 38px;
+        color: hsl(238, 22%, 44%);
+        font-size: 9px;
+    }
+    .card-img {
+        border-radius: 75px;
+        width: 30%;
+    }
+    .kylie-info {
+        margin: -57px 0px -7px 53px;
+        font-size: 9px;
+        width: 200px;
+    }
+    .kylie {
+        font-size: 15px;
+        color: hsl(243, 87%, 12%);
+        padding-bottom: 9px;
+    }
+    .sectD-content {
+        margin: 35px;
+        padding-top: 50px;
+        display: flex;
+        /* width: 360px; */
+    }
+    .sectD-title {
+        font-size: 21px;
+        width: 230px;
+        margin-left: -9px;
+    }
+    .sectD-desc {
+        width: 230px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: -10px;
+    }
+    .sectD {
+        background-color: hsl(238, 22%, 44%);
+        color: white;
+        width: 56%;
+        height: 350px;
+        margin-top: -50px;
+    }
+    .sectD-form {
+        width: 50%;
+        margin-left: -170px;
+        padding: 50px;
+        float: right;
+        margin-top: 90px;
+    }
+    .sectD-input {
+        width: 190px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 16px;
+        border: white;
+        margin-top: 20px;
+    }
+    .sectD-btn {
+        width: 210px;
+        padding: 9px;
+        margin-top: 15px;
+        margin-left: 14px;
+        color: white;
+        background-color: hsl(224, 93%, 58%);
+        border-radius: 4px;
+        border: 3px solid hsl(224, 93%, 58%);
+    }
+    .sectE {
+        background-color: hsl(243, 87%, 12%);
+        color: white;
+        height: 700px;
+        width: 56%;
+    }
+    .sectE-logo {
+        padding-top: 70px;
+    }
+    .about {
+        padding-top: 250px;
+        
+        /* padding-right: 50px; */
+    }
+    .about-li {
+        padding-bottom: 20px;
+        margin-left: -390px;
+ 
+    }
+    .contact {
+        padding-top: 200px;
+        padding-left: 190px;
+        margin-left: -230px;
+        margin-top: 240px;
+    }
+    .icon-s {
+        padding-top: 220px;
+        padding-left: 190px;
+        display: flex;
+        margin-left: -560px;
+        margin-top: 400px;
+    }
+    
+
+}
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+
+
+}
