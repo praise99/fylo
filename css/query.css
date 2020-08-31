@@ -1,86 +1,112 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        width: 100%;
+    }
     .container {
-        width: 57%;
+        width: 100%;
     }
     .img-logo {
         margin: 20px;
-        width: 25%;
+        width: 15%;
     }
     .navig {
         float: right;
-        margin: -50px 0px 0px 0px;
-        font-size: 9px;
+        margin: -50px 230px 0px -300px;
+        font-size: 8px;
     }
     .links {
         display: inline;
         padding-right: 13px;
     }
     .sectB-imglogo {
-        width: 200%;
+        width: 120%;
         flex: 2;
-        margin-left: -100px;
+        margin-left: -220px;
         flex-grow: 2;
         flex-shrink: 1;
         flex-basis: 0%;
     }
     .sectB-img {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .sectB-content {
         width: 50%;
-        margin-top: 180px;
+        margin-top: 200px;
         /* font-size: 7px; */
     }
     .sectB-title {
-        font-size: 16px;
-        width: 200px;
+        font-size: 14px;
+        width: 260px;
         /* white-space: nowrap; */
         text-align: center;
+        margin-left: -35px;
     }
     .sectB-desc {
-        font-size: 11px;
+        font-size: 8.5px;
         text-align: center;
-        width: 200px;
+        width: 260px;
+        margin-left: -40px;
     }
     .sectB-input {
         width: 190px;
         padding: 6px;
         margin-top: 9px;
-        margin-left: -1px;
+        margin-left: -13px;
     }
     .sectB-btn {
         width: 210px;
         padding: 6px;
-        margin-left: -3px;
+        margin-left: -16px;
         color: white;
         background-color: hsl(224, 93%, 58%);
         border-radius: 4px;
         border: 3px solid hsl(224, 93%, 58%);
         margin-top: 7px;
     }
+    .sectC {
+        margin: 35px;
+        margin-top: 0px;
+        display: flex;
+        /* background-image: url(../images/bg-curve-desktop.svg); */
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+    .sectC-content {
+        width: 50%;
+        margin-top: 250px;
+    }
     .sectC-img {
         width: 100%;
-        margin-top: -150px;
+        margin-top: 20px;
         flex: 2;
     }
+    .sectC-own {
+        background-color: rgb(252, 250, 250);
+        height: 800px;
+        margin-top: 200px;
+    }
     .sectC-logo {
-        width: 220%;
-        margin-left: -110px;
+        width: 100%;
+        margin-left: -210px;
     }
     .sectC-title {
         font-size: 14px;
         color: hsl(243, 87%, 12%);
         width: 230px;
         margin-top: 60px;
-        margin-left: -10px;
+        margin-left: -21px;
     }
     .sectC-desc {
         color: hsl(238, 22%, 44%);
         width: 230px;
         font-size: 11px;
         text-align: center;
-        margin-left: -14px;
+        margin-left: -23px;
     }
     .food {
         width: 230px;
@@ -89,10 +115,10 @@
     .fylo-works {
         color: hsl(170, 45%, 43%);
         font-size: 13px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .card {
-        margin-left: -10px;
+        margin-left: -23px;
         background: white;
         width: 150px;
         border-radius: 9px;
@@ -123,24 +149,25 @@
     .sectD-title {
         font-size: 21px;
         width: 230px;
-        margin-left: -9px;
+        margin-left: -23px;
+    }
+    .sectD {
+        background-color: hsl(238, 22%, 44%);
+        color: white;
+        width: 80%;
+        height: 350px;
+        margin-top: -50px;
     }
     .sectD-desc {
         width: 230px;
         font-size: 12px;
         text-align: center;
-        margin-left: -10px;
+        margin-left: -23px;
     }
-    .sectD {
-        background-color: hsl(238, 22%, 44%);
-        color: white;
-        width: 56%;
-        height: 350px;
-        margin-top: -50px;
-    }
+   
     .sectD-form {
         width: 50%;
-        margin-left: -170px;
+        margin-left: -240px;
         padding: 50px;
         float: right;
         margin-top: 90px;
@@ -167,7 +194,7 @@
         background-color: hsl(243, 87%, 12%);
         color: white;
         height: 700px;
-        width: 56%;
+        width: 86%;
     }
     .sectE-logo {
         padding-top: 70px;
@@ -196,9 +223,5 @@
         margin-top: 400px;
     }
     
-
-}
-@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
-
 
 }
