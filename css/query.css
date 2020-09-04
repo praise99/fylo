@@ -164,3 +164,129 @@
     
 
 }
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+    .sectA{
+        overflow-x: hidden;
+    }
+    .sectB{
+        overflow-x: hidden;
+        flex-direction: column;
+        
+    }
+    .sectC-own{
+        overflow-x: hidden;
+        height: auto;
+        
+    }
+    .sectD{
+        overflow-x: hidden;
+        height: auto;
+        margin-top: 50px;
+    }
+    .sectE{
+        overflow-x: hidden;
+        flex-direction: column;
+        height: auto;
+    }
+    .sectD-content{
+        flex-direction: column; 
+    }
+    .sectE-content{
+        flex-direction: column; 
+        margin-left: 80px;
+    }
+    .sectC{
+        flex-direction: column;
+    }
+    .sectB-content {
+        width: 100%;
+        margin-top: 50px;
+        order: 2;
+    }
+    .sectB-img {
+        width: 100%;
+        margin-top: -30px;
+        order: 1;
+    }
+    .sectB-title {
+        font-size: 46px;
+        padding: 0px 30px;
+        text-align: center;
+    }
+    .sectB-desc {
+        font-size: 19px;
+        padding: 0px 44px;
+        text-align: center;
+    }
+    .sectB-input {
+        width: 400px;
+        padding: 16px;
+        margin-left: 140px;
+        margin-bottom: 30px;
+    }
+    .sectB-btn {
+        width: 430px;
+        margin-left: 145px;
+    }
+    .sectC-content {
+        width: 100%;
+        order: 2;
+        margin-top: 50px;
+    }
+    .sectC-img {
+        width: 100%;
+        margin-top: -60px;
+        order: 1;
+    }
+    .sectC-title {
+        font-size: 39px;
+        text-align: center;
+    }
+    .sectC-desc {
+        margin-left: 40px;
+    }
+    .food {
+        text-align: center;
+        font-size: 27px;
+    }
+    .card {
+        margin-left: 100px;
+    }
+    .sectD-own {
+        width: 100%;
+    }
+    .sectD-form {
+        width: 100%;
+        margin-left: 80px;
+    }
+    .sectD-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .sectD-desc {
+        text-align: center;
+    }
+    .sectD-input {
+        width: 400px;
+    }
+    .sectD-btn {
+        width: 430px;
+        padding: 12px;
+    }
+    .about {
+        padding-top: 50px;
+        padding-left: 0px;
+        margin-left: -40px;
+    }
+    .contact {
+        padding-top: 19px;
+        padding-left: 0px;
+        margin-left: -40px;
+    }
+    .icon-s {
+        padding-top: 20px;
+        padding-left: 260px;
+        display: flex;
+        padding-bottom: 90px;
+    }
+}
